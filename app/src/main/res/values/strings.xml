@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dash</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="access">access</string>
+    <string name="local">PLACES</string>
+    <string name="profile">PROFILE</string>
+    <string name="name">Name</string>
+    <string name="data_nasc">Birthday</string>
+    <string name="sexo">Gender</string>
+    <string name="email">Email</string>
+    <string name="error_login_username">You need an username</string>
+    <string name="error_login_password">You need a password</string>
+    <string name="error_login_user">User not found</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

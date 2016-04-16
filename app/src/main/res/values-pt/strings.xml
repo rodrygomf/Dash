@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dash</string>
+    <string name="login">Login</string>
+    <string name="password">Senha</string>
+    <string name="access">acessar</string>
+    <string name="local">LUGARES</string>
+    <string name="profile">PERFIL</string>
+    <string name="name">Nome</string>
+    <string name="data_nasc">Data Nascimento</string>
+    <string name="sexo">Sexo</string>
+    <string name="email">Email</string>
+    <string name="error_login_username">Você precisa de um nome de usuário</string>
+    <string name="error_login_password">Você precisa de uma senha</string>
+    <string name="error_login_user">Usuário não encontrado</string>
+</resources>
