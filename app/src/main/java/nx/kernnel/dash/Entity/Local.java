@@ -187,6 +187,6 @@ public class Local implements Serializable {
     }
 
     public Local getLocal(Integer id) {
-        return id > 0 && id < 7 ? getLista().get(id-1) : getLista().get(0);
+        return id > 0 && id <= getLista().size() ? getLista().get(id-1) : getLista().get(0);
     }
 }

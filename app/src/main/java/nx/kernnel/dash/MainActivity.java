@@ -16,10 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.TextView;
-
 import java.text.SimpleDateFormat;
-import java.util.List;
-
 import nx.kernnel.dash.Adapter.LocalAdapter;
 import nx.kernnel.dash.Entity.DashLocation;
 import nx.kernnel.dash.Entity.Local;
@@ -175,8 +172,6 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
             return PlaceholderFragment.newInstance(position + 1);
         }
 

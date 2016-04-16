@@ -69,6 +69,6 @@ public class Tipo implements Serializable {
     }
 
     public Tipo getTipo(Integer id) {
-        return id > 0 && id < 5 ? getLista().get(id - 1) : getLista().get(0);
+        return id > 0 && id <= getLista().size() ? getLista().get(id - 1) : getLista().get(0);
     }
 }
